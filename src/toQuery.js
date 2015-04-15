@@ -7,7 +7,7 @@ function negate(cond) {
   return 'not ' + cond;
 }
 
-function keyVal(k, v) {
+function keyVal(k, v,) {
   var realKey = hyphenate(k);
 
   // px shorthand
